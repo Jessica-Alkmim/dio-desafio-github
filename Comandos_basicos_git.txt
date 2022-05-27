@@ -12,6 +12,9 @@ cd <nome da pasta> (pode usar tab para auto completar / no linux case sensitive 
 #Comando para reliazar clone do repositório github para diretório local:
 git clone <URL do repositório>
 
+#Navegue para dentro do repositório clonado:
+cd <nome do repositório>
+
 #Comando para criar uma branch:
 git checkout -b <nome da branch>
 
@@ -26,6 +29,9 @@ git add <caminho completo com nome do arquivo alterado>
 
 #Comando para realizar commit localmente:
 git commit -m <Descritivo resumido das alterações>
+
+#Comando para listar branch criadas:
+git branch
 
 #Comando para subir as alterações ao github:
 git push --set-upstream origin <nome branch>
