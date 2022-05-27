@@ -36,5 +36,8 @@ git branch
 #Comando para subir as alterações ao github:
 git push --set-upstream origin <nome branch>
 
+#Comando para selecionar outra branch:
+git checkout <nome da branch>
+
 #Comando para atualizar repositório local com base na última versão do repositório no github:
 git pull
