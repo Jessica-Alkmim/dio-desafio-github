@@ -1,0 +1,34 @@
+#Comando para saber em qual diretório você se encontra no linux:
+pwd
+
+#Comando para listar diretórios e arquivos no diretório a qual você se encontra:
+ls (listagem comum)
+ls -l (listagem detalhada em ordem alfabética)
+ls -ltr (listagem detalhada em ordem de data de criação)
+
+#Comando para navegar em diretório:
+cd <nome da pasta> (pode usar tab para auto completar / no linux case sensitive faz diferença)
+
+#Comando para reliazar clone do repositório github para diretório local:
+git clone <URL do repositório>
+
+#Comando para criar uma branch:
+git checkout -b <nome da branch>
+
+#Comando para saber status das alterações realizadas:
+git status
+
+#Comando para adicionar as alterações da branch para serem comitadas:
+git add .
+
+#Comando para adicionar alterações em arquivo específico na branch para serem comitadas:
+git add <caminho completo com nome do arquivo alterado>
+
+#Comando para realizar commit localmente:
+git commit -m <Descritivo resumido das alterações>
+
+#Comando para subir as alterações ao github:
+git push --set-upstream origin <nome branch>
+
+#Comando para atualizar repositório local com base na última versão do repositório no github:
+git pull
